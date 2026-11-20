@@ -83,7 +83,8 @@
 
 - `git init -b main` 成功，远程 `origin` 指向
   `https://github.com/Z-2005-HJ/CampusCoach.git`。
-- `git status --short --untracked-files=all` 返回 8 个预期文件，无额外产物。
+- `git status --short --untracked-files=all` 首次返回 8 个预期文件；为统一文本换行
+  补充 `.gitattributes` 后，基线共 9 个文件，无额外产物。
 - 初次提交为 `chore: establish repository and agent working contract`。
 - 推送后 `main` 跟踪 `origin/main`，工作区干净。
 
