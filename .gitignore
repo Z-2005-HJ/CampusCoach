@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# JavaScript / frontend tooling
+node_modules/
+.npm/
+.pnpm-store/
+.playwright/
+test-results/
+playwright-report/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local data and uploads
+*.db
+*.sqlite
+*.sqlite3
+data/private/
+uploads/
+.local/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
